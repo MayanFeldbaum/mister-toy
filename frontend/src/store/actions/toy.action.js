@@ -2,9 +2,9 @@ import { toyService } from '../../services/toy.service'
 import { store } from '../store'
 import { REMOVE_TOY, SET_TOYS, ADD_TOY, UPDATE_TOY, UNDO_REMOVE_TOY, SET_IS_LOADING } from '../reducers/toy.reducer'
 
-export function loadToys(filterBy) {
+export function loadToys(filterBy,sortBy) {
     store.dispatch({ type: SET_IS_LOADING, isLoading: true })
-    return toyService.query(filterBy)
+    return toyService.query(filterBy,sortBy)
         .then((toys) => {
             store.dispatch({ type: SET_TOYS, toys })
         })
@@ -16,18 +16,6 @@ export function loadToys(filterBy) {
             store.dispatch({ type: SET_IS_LOADING, isLoading: false })
         })
 }
-
-// Example for Optimistic mutation:
-// export function removeToy(carId) {
-//     store.dispatch({ type: REMOVE_TOY, carId })
-//     return carService.remove(carId)
-//         .catch(err => {
-//             store.dispatch({ type: UNDO_REMOVE_TOY })
-//             console.log('Had issues Removing TOY', err)
-//             throw err
-//         })
-// }
-
 export function removeToy(toyId) {
     return toyService.remove(toyId)
         .then(() => {

@@ -6,9 +6,6 @@ import { utilService } from "../services/util.service.js"
 export function ToyFilter({ onSetFilter }) {
 
     const [filterByToEdit, setFilterByToEdit] = useState(toyService.getDefaultFilter())
-    const [labelsArray, setLabelsArray] = useState([])
-
-
 
     const debounceFilter = useRef(utilService.debounce(onSetFilter))
 
@@ -19,8 +16,8 @@ export function ToyFilter({ onSetFilter }) {
 
     function handleChange({ target }) {
         let { value, name: field, type } = target
-        console.log(value);
         value = (type === 'number') ? +value : value
+        value = (type === 'number'&& value<=0) ? '' : value
         setFilterByToEdit((prevFilter) => ({ ...prevFilter, [field]: value }))
     }
 
