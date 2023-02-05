@@ -1,13 +1,11 @@
 import { useDispatch, useSelector } from 'react-redux'
-import { Link } from 'react-router-dom'
+import { useEffect } from 'react'
 
 import { ToyList } from '../cmps/toy-list'
-import { toyService } from '../services/toy.service'
 import { showSuccessMsg, showErrorMsg } from '../services/event-bus.service.js'
 import { loadToys, removeToy} from '../store/actions/toy.action'
-import { SET_FILTER } from '../store/reducers/toy.reducer'
-import { useEffect } from 'react'
 import { ToyFilter } from '../cmps/toy-filter'
+import { SET_FILTER } from '../store/reducers/toy.reducer'
 import { ToySort } from '../cmps/toy-sort'
 import { SET_SORT } from '../store/reducers/toy.reducer'
 
@@ -21,27 +19,19 @@ export function ToyIndex() {
     const dispatch = useDispatch()
 
     useEffect(() => {
-        onLoadToys(filterBy,sortBy)
+        loadToys(filterBy,sortBy)
     }, [filterBy,sortBy])
 
-    function onLoadToys(filterBy,sortBy) {
-        loadToys(filterBy,sortBy)
-            .then(() => {
-                // showSuccessMsg('Cars loaded')
-            })
-            .catch(err => {
-                showErrorMsg('Cannot load cars')
-            })
-    }
-
-    function onRemoveToy(carId) {
-        removeToy(carId)
-            .then(() => {
-                showSuccessMsg('Car removed')
-            })
-            .catch(err => {
-                showErrorMsg('Cannot remove car')
-            })
+    async function onRemoveToy(carId) {
+        try {
+            await removeToy(carId)
+            console.log('Toy removed')
+            showSuccessMsg('Toy removed')
+        } catch (err) {
+            console.error('Error:', err.message)
+        } finally {
+            console.log('Always run')
+        }
     }
 
     function setFilter(filterBy) {
@@ -54,12 +44,11 @@ export function ToyIndex() {
 
     return <section>
         <main>
+            <div className="filters">
             <ToyFilter onSetFilter={setFilter} />
             <ToySort sortBy={sortBy} onSetSort={setSort}/>
-            <Link to={`/toy/edit`}>Add Toy</Link>
+            </div>
             <ToyList toys={toys} onRemoveToy={onRemoveToy} />
         </main>
     </section>
-
-
 }

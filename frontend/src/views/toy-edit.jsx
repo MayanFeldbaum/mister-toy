@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react"
 import { Link, useNavigate, useParams } from "react-router-dom"
 
-import {saveToy} from '../store/actions/toy.action'
+import { saveToy } from '../store/actions/toy.action'
 
 import { toyService } from "../services/toy.service.js"
 import { showErrorMsg, showSuccessMsg } from "../services/event-bus.service.js"
@@ -16,13 +16,16 @@ export function ToyEdit() {
         loadToy()
     }, [])
 
-    function loadToy() {
-        toyService.getById(toyId)
-            .then((toy) => setToyToEdit(toy))
-            .catch((err) => {
-                console.log('Had issues in toy details', err)
-                navigate('/toy')
-            })
+    async function loadToy() {
+        try {
+            const toy = await toyService.getById(toyId)
+            setToyToEdit(toy)
+            console.log('Success: ', toy)
+        } catch (err) {
+            console.error('Error:', err.message)
+        } finally {
+            console.log('Always run')
+        }
     }
 
     function handleChange({ target }) {
@@ -31,25 +34,25 @@ export function ToyEdit() {
         setToyToEdit((prevToy) => ({ ...prevToy, [field]: value }))
     }
 
-    function onSaveToy(ev) {
+    async function onSaveToy(ev) {
         ev.preventDefault()
-        saveToy(toyToEdit)
-            .then((toy) => {
-                console.log('toy saved', toy);
-                showSuccessMsg('toy saved!')
-                navigate('/toy')
-            })
-            .catch(err => {
-                console.log('err', err)
-                showErrorMsg('Cannot save toy')
-            })
+        try {
+            const toy = await saveToy(toyToEdit)
+            console.log('toy saved', toy);
+            showSuccessMsg('toy saved!')
+            navigate('/toy')
+        } catch (err) {
+            console.error('Error:', err.message)
+        } finally {
+            console.log('Always run')
+        }
     }
 
     return <section className="toy-edit">
-        <h2>{toyToEdit.id ? 'Edit this toy' : 'Add a new toy'}</h2>
+        <h2>{toyId ? 'Edit this toy' : 'Add a new toy'}</h2>
 
         <form onSubmit={onSaveToy}>
-            <label htmlFor="name">Vendor : </label>
+            <label htmlFor="name">Name : </label>
             <input type="text"
                 name="name"
                 id="name"
@@ -67,8 +70,8 @@ export function ToyEdit() {
             />
 
             <div>
-                <button>{toyToEdit._id ? 'Save' : 'Add'}</button>
-                <Link to="/toy">Cancel</Link>
+                <button className="btn">{toyToEdit._id ? 'Save' : 'Add'}</button>
+                <Link className="btn btn-a" to="/toy">Cancel</Link>
             </div>
         </form>
     </section>

@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 export function ToySort({ sortBy, onSetSort }) {
 
@@ -13,9 +14,9 @@ export function ToySort({ sortBy, onSetSort }) {
     }
 
     return <section className="toy-sort">
-        <h3>Sort toys:</h3>
+        <Link to={`/toy/edit`}>Add Toy</Link>
         <button onClick={() => handleSortChange('name')}>By name</button>
         <button onClick={() => handleSortChange('price')}>By price</button>
-        <button onClick={handleDirectionChange}>Change direction {sortBy.asc ? '^' : 'v'}</button>
+        <button onClick={handleDirectionChange}>{sortBy.asc ? '^' : 'v'}</button>
     </section>
 }

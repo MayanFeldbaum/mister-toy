@@ -38,8 +38,8 @@ function save(toy) {
     }
 }
 
-function getEmptyToy(name = '', price = 0, labels = [], createdAt = Date.now(), inStock = true) {
-    return { name, price, labels, createdAt, inStock }
+function getEmptyToy(name = '', price = 0, labels = ["art"], createdAt = Date.now(), inStock = true,img="default") {
+    return { name, price, labels, createdAt, inStock,img }
 }
 
 function getDefaultFilter(name = '', price = '', inStock = '') {

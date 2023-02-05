@@ -1,0 +1,703 @@
+13.1.2023, 0:03:46 - INFO - Server is running on port: 3030 
+13.1.2023, 0:03:51 - INFO - Server is running on port: 3030 
+13.1.2023, 0:04:08 - INFO - Server is running on port: 3030 
+13.1.2023, 0:04:16 - INFO - Server is running on port: 3030 
+13.1.2023, 0:04:23 - INFO - Server is running on port: 3030 
+13.1.2023, 0:04:36 - INFO - Server is running on port: 3030 
+13.1.2023, 0:06:00 - INFO - Server is running on port: 3030 
+13.1.2023, 0:09:51 - DEBUG - auth.service - login with username: orit 
+13.1.2023, 0:09:51 - ERROR - Failed to Login Invalid username or password 
+13.1.2023, 0:09:53 - DEBUG - auth.service - login with username: admin 
+13.1.2023, 0:09:53 - ERROR - Failed to Login Invalid username or password 
+13.1.2023, 0:10:09 - DEBUG - mayan, mayan, mayan 
+13.1.2023, 0:10:09 - DEBUG - auth.service - signup with username: mayan, fullname: mayan 
+13.1.2023, 0:10:09 - DEBUG - auth.route - new account created: {"username":"mayan","password":"$2b$10$5tjRfHF4gTvzMmOgBEZI9OHprwYiEPACllcejqF5KOUPapUMqrHB.","fullname":"mayan","_id":"63c08541ea1ab31939fde31a"} 
+13.1.2023, 0:10:09 - DEBUG - auth.service - login with username: mayan 
+13.1.2023, 0:10:09 - ERROR - Failed to signup Invalid username or password 
+13.1.2023, 0:10:17 - DEBUG - mayan, mayan, mayan 
+13.1.2023, 0:10:17 - DEBUG - auth.service - signup with username: mayan, fullname: mayan 
+13.1.2023, 0:10:17 - DEBUG - auth.route - new account created: {"username":"mayan","password":"$2b$10$c/U6F747Xw0QYS3fRzfIp.0SEai8G2hFFmjCbO/BhqkjsXGT1ZWHq","fullname":"mayan","_id":"63c08549ea1ab31939fde31b"} 
+13.1.2023, 0:10:17 - DEBUG - auth.service - login with username: mayan 
+13.1.2023, 0:10:17 - ERROR - Failed to signup Invalid username or password 
+13.1.2023, 0:10:35 - DEBUG - mayan, mayan, mayan 
+13.1.2023, 0:10:35 - DEBUG - auth.service - signup with username: mayan, fullname: mayan 
+13.1.2023, 0:10:35 - DEBUG - auth.route - new account created: {"username":"mayan","password":"$2b$10$S72zyF.9BFc9owY7mAboLOj86w8kUmjapVaFYVlXfuymH5UUv6Nfq","fullname":"mayan","_id":"63c0855bea1ab31939fde31c"} 
+13.1.2023, 0:10:35 - DEBUG - auth.service - login with username: mayan 
+13.1.2023, 0:10:35 - ERROR - Failed to signup Invalid username or password 
+13.1.2023, 0:12:40 - DEBUG - mayan, mayan, mayan 
+13.1.2023, 0:12:40 - DEBUG - auth.service - signup with username: mayan, fullname: mayan 
+13.1.2023, 0:12:40 - DEBUG - auth.service - login with username: mayan 
+13.1.2023, 0:12:40 - DEBUG - auth.route - new account created: {"username":"mayan","password":"$2b$10$CKsNokAb8yn/p4VTg6Nsi.MX/ABVYjzpyhb4pLRSjuOms4EjEPP9W","fullname":"mayan","_id":"63c085d8ea1ab31939fde31d"} 
+13.1.2023, 0:12:40 - ERROR - Failed to signup Invalid username or password 
+13.1.2023, 0:15:00 - DEBUG - mayan, mayan, mayan 
+13.1.2023, 0:15:00 - DEBUG - auth.service - signup with username: mayan, fullname: mayan 
+13.1.2023, 0:15:01 - DEBUG - auth.route - new account created: {"username":"mayan","password":"$2b$10$oJcNTdBIETmWe57zJ.L/XeysX7/857RvBiGEzE7J6blzaL/r8pKgm","fullname":"mayan","_id":"63c08665ea1ab31939fde31e"} 
+13.1.2023, 0:15:01 - DEBUG - auth.service - login with username: mayan 
+13.1.2023, 0:15:01 - ERROR - Failed to signup Invalid username or password 
+13.1.2023, 0:16:23 - DEBUG - auth.service - login with username: mayan 
+13.1.2023, 0:16:23 - ERROR - Failed to Login Invalid username or password 
+13.1.2023, 0:16:57 - INFO - Server is running on port: 3030 
+13.1.2023, 0:17:30 - DEBUG - auth.service - login with username: mayan 
+13.1.2023, 0:17:31 - ERROR - Failed to Login Invalid username or password 
+13.1.2023, 0:19:54 - DEBUG - auth.service - login with username: stu 
+13.1.2023, 0:19:54 - ERROR - Failed to Login Invalid username or password 
+13.1.2023, 0:20:52 - INFO - Server is running on port: 3030 
+13.1.2023, 0:20:58 - INFO - Server is running on port: 3030 
+13.1.2023, 0:21:05 - INFO - Server is running on port: 3030 
+13.1.2023, 0:21:20 - DEBUG - auth.service - signup with username: mayan, fullname: mayan 
+13.1.2023, 0:21:20 - DEBUG - auth.service - login with username: mayan 
+13.1.2023, 0:21:20 - ERROR - Failed to signup Invalid username or password 
+13.1.2023, 0:21:29 - DEBUG - auth.service - login with username: mayan 
+13.1.2023, 0:21:29 - ERROR - Failed to Login Invalid username or password 
+13.1.2023, 0:24:42 - INFO - Server is running on port: 3030 
+13.1.2023, 0:24:43 - INFO - Server is running on port: 3030 
+13.1.2023, 0:24:45 - INFO - Server is running on port: 3030 
+13.1.2023, 0:24:47 - INFO - Server is running on port: 3030 
+13.1.2023, 0:24:49 - INFO - Server is running on port: 3030 
+13.1.2023, 0:24:55 - INFO - Server is running on port: 3030 
+15.1.2023, 8:32:06 - INFO - Server is running on port: 3030 
+15.1.2023, 15:12:34 - INFO - Server is running on port: 3030 
+15.1.2023, 15:16:43 - INFO - Server is running on port: 3030 
+15.1.2023, 15:21:13 - INFO - Server is running on port: 3030 
+15.1.2023, 15:21:26 - INFO - Server is running on port: 3030 
+15.1.2023, 15:23:12 - INFO - Server is running on port: 3030 
+15.1.2023, 15:23:16 - INFO - Server is running on port: 3030 
+15.1.2023, 15:23:20 - INFO - Server is running on port: 3030 
+15.1.2023, 15:23:24 - INFO - Server is running on port: 3030 
+15.1.2023, 15:23:28 - INFO - Server is running on port: 3030 
+15.1.2023, 15:23:32 - INFO - Server is running on port: 3030 
+15.1.2023, 15:23:38 - INFO - Server is running on port: 3030 
+15.1.2023, 15:23:44 - INFO - Server is running on port: 3030 
+15.1.2023, 15:24:19 - INFO - Server is running on port: 3030 
+15.1.2023, 15:24:30 - INFO - Server is running on port: 3030 
+15.1.2023, 15:24:41 - INFO - Server is running on port: 3030 
+15.1.2023, 15:24:43 - DEBUG - Getting Toys 
+15.1.2023, 15:24:43 - DEBUG - Getting Toys 
+15.1.2023, 15:25:34 - DEBUG - Getting Toys 
+15.1.2023, 15:25:34 - DEBUG - Getting Toys 
+15.1.2023, 15:25:45 - DEBUG - Getting Toys 
+15.1.2023, 15:25:45 - DEBUG - Getting Toys 
+15.1.2023, 15:31:39 - DEBUG - Getting Toys 
+15.1.2023, 15:35:51 - DEBUG - Getting Toys 
+15.1.2023, 15:36:56 - DEBUG - Getting Toys 
+15.1.2023, 15:36:57 - DEBUG - Getting Toys 
+15.1.2023, 15:37:06 - DEBUG - Getting Toys 
+15.1.2023, 15:37:07 - DEBUG - Getting Toys 
+15.1.2023, 15:38:11 - DEBUG - Getting Toys 
+15.1.2023, 15:38:11 - DEBUG - Getting Toys 
+15.1.2023, 15:55:49 - DEBUG - Getting Toys 
+15.1.2023, 15:55:50 - DEBUG - Getting Toys 
+15.1.2023, 16:26:12 - DEBUG - Getting Toys 
+15.1.2023, 16:26:13 - DEBUG - Getting Toys 
+15.1.2023, 16:27:19 - INFO - Server is running on port: 3030 
+15.1.2023, 16:35:07 - INFO - Server is running on port: 3030 
+15.1.2023, 16:36:01 - INFO - Server is running on port: 3030 
+15.1.2023, 16:36:11 - DEBUG - Getting Toys 
+15.1.2023, 16:36:12 - DEBUG - Getting Toys 
+15.1.2023, 16:37:12 - INFO - Server is running on port: 3030 
+15.1.2023, 16:44:36 - DEBUG - Getting Toys 
+15.1.2023, 16:54:28 - DEBUG - Getting Toys 
+15.1.2023, 16:54:58 - INFO - Server is running on port: 3030 
+15.1.2023, 17:02:23 - DEBUG - Getting Toys 
+15.1.2023, 17:02:23 - DEBUG - Getting Toys 
+15.1.2023, 18:30:44 - INFO - Server is running on port: 3030 
+15.1.2023, 19:06:19 - INFO - Server is running on port: 3030 
+15.1.2023, 19:09:45 - DEBUG - Getting Toys 
+15.1.2023, 19:09:46 - DEBUG - Getting Toys 
+15.1.2023, 19:12:00 - ERROR - Failed to add review | TypeError: Cannot convert undefined or null to object 
+15.1.2023, 19:12:54 - ERROR - Failed to add review | TypeError: Cannot convert undefined or null to object 
+15.1.2023, 19:14:12 - ERROR - Failed to add review | TypeError: Cannot convert undefined or null to object 
+15.1.2023, 19:14:37 - ERROR - Failed to add review | TypeError: Cannot convert undefined or null to object 
+15.1.2023, 19:40:36 - ERROR - Failed to add review | TypeError: Cannot convert undefined or null to object 
+15.1.2023, 19:42:28 - INFO - Server is running on port: 3030 
+15.1.2023, 19:42:31 - ERROR - Failed to add review | TypeError: Cannot convert undefined or null to object 
+15.1.2023, 19:44:31 - ERROR - Failed to add review | TypeError: Cannot convert undefined or null to object 
+15.1.2023, 19:45:33 - ERROR - Failed to add review | TypeError: Cannot convert undefined or null to object 
+15.1.2023, 20:38:26 - ERROR - Failed to add review | TypeError: Cannot convert undefined or null to object 
+15.1.2023, 20:42:00 - ERROR - Failed to add review | TypeError: Cannot convert undefined or null to object 
+15.1.2023, 20:46:31 - ERROR - Failed to add review | TypeError: Cannot convert undefined or null to object 
+15.1.2023, 21:03:54 - INFO - Server is running on port: 3030 
+15.1.2023, 21:03:57 - ERROR - Failed to add review | ReferenceError: toyService is not defined 
+15.1.2023, 21:04:49 - INFO - Server is running on port: 3030 
+15.1.2023, 21:05:00 - ERROR - Failed to add review | ReferenceError: toyService is not defined 
+15.1.2023, 22:44:58 - ERROR - Failed to add review | ReferenceError: toyService is not defined 
+16.1.2023, 8:45:20 - INFO - Server is running on port: 3030 
+16.1.2023, 9:13:29 - INFO - Server is running on port: 3030 
+16.1.2023, 9:26:53 - INFO - Server is running on port: 3030 
+16.1.2023, 9:27:08 - INFO - Server is running on port: 3030 
+16.1.2023, 9:27:49 - INFO - Server is running on port: 3030 
+16.1.2023, 9:28:10 - ERROR - Failed to add review | ReferenceError: toyService is not defined 
+16.1.2023, 9:35:12 - INFO - Server is running on port: 3030 
+16.1.2023, 9:37:21 - INFO - Server is running on port: 3030 
+16.1.2023, 9:37:55 - INFO - Server is running on port: 3030 
+16.1.2023, 9:38:07 - INFO - Server is running on port: 3030 
+16.1.2023, 10:01:38 - INFO - Server is running on port: 3030 
+16.1.2023, 10:02:16 - INFO - Server is running on port: 3030 
+16.1.2023, 10:02:18 - ERROR - cannot find reviews | TypeError: Cannot read properties of undefined (reading 'byUserId') 
+16.1.2023, 10:02:18 - ERROR - Cannot get reviews | TypeError: Cannot read properties of undefined (reading 'byUserId') 
+16.1.2023, 10:02:18 - ERROR - cannot find reviews | TypeError: Cannot read properties of undefined (reading 'byUserId') 
+16.1.2023, 10:02:18 - ERROR - Cannot get reviews | TypeError: Cannot read properties of undefined (reading 'byUserId') 
+16.1.2023, 10:02:28 - INFO - Server is running on port: 3030 
+16.1.2023, 10:02:29 - ERROR - cannot find reviews | TypeError: Cannot read properties of undefined (reading 'byUserId') 
+16.1.2023, 10:02:29 - ERROR - Cannot get reviews | TypeError: Cannot read properties of undefined (reading 'byUserId') 
+16.1.2023, 10:02:29 - ERROR - Cannot get reviews | TypeError: Cannot read properties of undefined (reading 'byUserId') 
+16.1.2023, 10:02:29 - ERROR - cannot find reviews | TypeError: Cannot read properties of undefined (reading 'byUserId') 
+16.1.2023, 10:02:37 - INFO - Server is running on port: 3030 
+16.1.2023, 10:02:59 - INFO - Server is running on port: 3030 
+16.1.2023, 10:03:12 - INFO - Server is running on port: 3030 
+16.1.2023, 10:03:29 - INFO - Server is running on port: 3030 
+16.1.2023, 10:03:42 - INFO - Server is running on port: 3030 
+16.1.2023, 10:05:14 - INFO - Server is running on port: 3030 
+16.1.2023, 10:06:17 - INFO - Server is running on port: 3030 
+16.1.2023, 10:06:55 - INFO - Server is running on port: 3030 
+16.1.2023, 10:07:15 - INFO - Server is running on port: 3030 
+16.1.2023, 10:07:26 - INFO - Server is running on port: 3030 
+16.1.2023, 10:07:42 - INFO - Server is running on port: 3030 
+16.1.2023, 10:10:54 - INFO - Server is running on port: 3030 
+16.1.2023, 10:11:27 - INFO - Server is running on port: 3030 
+16.1.2023, 10:11:58 - INFO - Server is running on port: 3030 
+16.1.2023, 10:12:25 - DEBUG - Getting Toys 
+16.1.2023, 10:12:26 - DEBUG - Getting Toys 
+16.1.2023, 10:37:21 - INFO - Server is running on port: 3030 
+16.1.2023, 12:47:54 - INFO - Server is running on port: 3030 
+16.1.2023, 12:58:22 - INFO - Server is running on port: 3030 
+16.1.2023, 12:58:25 - ERROR - cannot find reviews | ReferenceError: params is not defined 
+16.1.2023, 12:58:25 - ERROR - Cannot get reviews | ReferenceError: params is not defined 
+16.1.2023, 12:58:25 - ERROR - cannot find reviews | ReferenceError: params is not defined 
+16.1.2023, 12:58:25 - ERROR - Cannot get reviews | ReferenceError: params is not defined 
+16.1.2023, 12:58:39 - ERROR - cannot find reviews | ReferenceError: params is not defined 
+16.1.2023, 12:58:39 - ERROR - Cannot get reviews | ReferenceError: params is not defined 
+16.1.2023, 12:58:39 - ERROR - cannot find reviews | ReferenceError: params is not defined 
+16.1.2023, 12:58:39 - ERROR - Cannot get reviews | ReferenceError: params is not defined 
+16.1.2023, 12:58:58 - INFO - Server is running on port: 3030 
+16.1.2023, 13:01:03 - DEBUG - Getting Toys 
+16.1.2023, 13:01:03 - DEBUG - Getting Toys 
+16.1.2023, 13:02:42 - INFO - Server is running on port: 3030 
+16.1.2023, 13:08:26 - INFO - Server is running on port: 3030 
+16.1.2023, 13:09:15 - INFO - Server is running on port: 3030 
+16.1.2023, 13:12:04 - INFO - Server is running on port: 3030 
+16.1.2023, 13:12:35 - INFO - Server is running on port: 3030 
+16.1.2023, 13:14:39 - INFO - Server is running on port: 3030 
+16.1.2023, 13:15:23 - INFO - Server is running on port: 3030 
+16.1.2023, 13:16:44 - INFO - Server is running on port: 3030 
+16.1.2023, 13:17:46 - INFO - Server is running on port: 3030 
+16.1.2023, 13:20:33 - INFO - Server is running on port: 3030 
+16.1.2023, 13:20:41 - INFO - Server is running on port: 3030 
+16.1.2023, 13:21:25 - INFO - Server is running on port: 3030 
+16.1.2023, 13:21:43 - INFO - Server is running on port: 3030 
+16.1.2023, 13:24:54 - INFO - Server is running on port: 3030 
+16.1.2023, 13:27:01 - INFO - Server is running on port: 3030 
+16.1.2023, 13:27:28 - INFO - Server is running on port: 3030 
+16.1.2023, 13:30:23 - INFO - Server is running on port: 3030 
+16.1.2023, 13:30:26 - ERROR - cannot find reviews | TypeError: Assignment to constant variable. 
+16.1.2023, 13:30:26 - ERROR - Cannot get reviews | TypeError: Assignment to constant variable. 
+16.1.2023, 13:31:13 - INFO - Server is running on port: 3030 
+16.1.2023, 13:32:11 - INFO - Server is running on port: 3030 
+16.1.2023, 13:32:21 - INFO - Server is running on port: 3030 
+16.1.2023, 13:37:48 - INFO - Server is running on port: 3030 
+16.1.2023, 13:37:58 - INFO - Server is running on port: 3030 
+16.1.2023, 13:39:32 - INFO - Server is running on port: 3030 
+16.1.2023, 13:39:39 - INFO - Server is running on port: 3030 
+16.1.2023, 13:41:33 - INFO - Server is running on port: 3030 
+16.1.2023, 13:41:46 - INFO - Server is running on port: 3030 
+16.1.2023, 13:42:13 - INFO - Server is running on port: 3030 
+16.1.2023, 13:42:15 - ERROR - cannot find reviews | TypeError: "ObjectId" is not a function 
+16.1.2023, 13:42:15 - ERROR - Cannot get reviews | TypeError: "ObjectId" is not a function 
+16.1.2023, 13:42:32 - INFO - Server is running on port: 3030 
+16.1.2023, 13:48:37 - INFO - Server is running on port: 3030 
+16.1.2023, 13:49:27 - INFO - Server is running on port: 3030 
+16.1.2023, 13:49:34 - INFO - Server is running on port: 3030 
+16.1.2023, 13:53:10 - INFO - Server is running on port: 3030 
+16.1.2023, 13:55:55 - INFO - Server is running on port: 3030 
+16.1.2023, 14:03:35 - INFO - Server is running on port: 3030 
+16.1.2023, 14:06:05 - DEBUG - Getting Toys 
+16.1.2023, 14:06:06 - DEBUG - Getting Toys 
+16.1.2023, 14:06:26 - DEBUG - Getting Toys 
+16.1.2023, 14:06:39 - DEBUG - Getting Toys 
+16.1.2023, 14:06:40 - DEBUG - Getting Toys 
+16.1.2023, 14:12:05 - INFO - Server is running on port: 3030 
+16.1.2023, 14:13:41 - INFO - Server is running on port: 3030 
+16.1.2023, 14:13:45 - ERROR - cannot find reviews | TypeError: Cannot read properties of undefined (reading '_id') 
+16.1.2023, 14:13:45 - ERROR - Cannot get reviews | TypeError: Cannot read properties of undefined (reading '_id') 
+16.1.2023, 14:13:46 - ERROR - cannot find reviews | TypeError: Cannot read properties of undefined (reading '_id') 
+16.1.2023, 14:13:46 - ERROR - Cannot get reviews | TypeError: Cannot read properties of undefined (reading '_id') 
+16.1.2023, 14:14:05 - INFO - Server is running on port: 3030 
+16.1.2023, 14:14:08 - ERROR - cannot find reviews | TypeError: Cannot read properties of undefined (reading '_id') 
+16.1.2023, 14:14:08 - ERROR - Cannot get reviews | TypeError: Cannot read properties of undefined (reading '_id') 
+16.1.2023, 14:14:08 - ERROR - cannot find reviews | TypeError: Cannot read properties of undefined (reading '_id') 
+16.1.2023, 14:14:08 - ERROR - Cannot get reviews | TypeError: Cannot read properties of undefined (reading '_id') 
+16.1.2023, 14:17:28 - INFO - Server is running on port: 3030 
+16.1.2023, 14:19:57 - INFO - Server is running on port: 3030 
+16.1.2023, 14:21:07 - INFO - Server is running on port: 3030 
+16.1.2023, 14:25:43 - INFO - Server is running on port: 3030 
+16.1.2023, 14:26:01 - INFO - Server is running on port: 3030 
+16.1.2023, 14:26:04 - ERROR - cannot find reviews | TypeError: Assignment to constant variable. 
+16.1.2023, 14:26:04 - ERROR - Cannot get reviews | TypeError: Assignment to constant variable. 
+16.1.2023, 14:26:14 - INFO - Server is running on port: 3030 
+16.1.2023, 14:26:31 - DEBUG - Getting Toys 
+16.1.2023, 14:26:32 - DEBUG - Getting Toys 
+16.1.2023, 14:29:41 - INFO - Server is running on port: 3030 
+16.1.2023, 14:30:19 - INFO - Server is running on port: 3030 
+16.1.2023, 14:33:40 - INFO - Server is running on port: 3030 
+16.1.2023, 14:33:49 - INFO - Server is running on port: 3030 
+16.1.2023, 14:34:52 - DEBUG - Getting Toys 
+16.1.2023, 14:34:59 - DEBUG - Getting Toys 
+16.1.2023, 14:34:59 - DEBUG - Getting Toys 
+16.1.2023, 14:35:00 - DEBUG - Getting Toys 
+16.1.2023, 14:38:04 - DEBUG - Getting Toys 
+16.1.2023, 14:38:04 - DEBUG - Getting Toys 
+16.1.2023, 14:48:50 - INFO - Server is running on port: 3030 
+16.1.2023, 14:49:16 - INFO - Server is running on port: 3030 
+16.1.2023, 14:52:21 - INFO - Server is running on port: 3030 
+16.1.2023, 14:52:39 - INFO - Server is running on port: 3030 
+16.1.2023, 14:52:59 - INFO - Server is running on port: 3030 
+16.1.2023, 14:53:19 - INFO - Server is running on port: 3030 
+16.1.2023, 14:53:51 - INFO - Server is running on port: 3030 
+16.1.2023, 14:53:54 - ERROR - cannot find reviews | TypeError: Cannot read properties of undefined (reading '_id') 
+16.1.2023, 14:53:54 - ERROR - Cannot get reviews | TypeError: Cannot read properties of undefined (reading '_id') 
+16.1.2023, 14:53:54 - ERROR - cannot find reviews | TypeError: Cannot read properties of undefined (reading '_id') 
+16.1.2023, 14:53:54 - ERROR - Cannot get reviews | TypeError: Cannot read properties of undefined (reading '_id') 
+16.1.2023, 14:54:16 - INFO - Server is running on port: 3030 
+16.1.2023, 14:54:17 - ERROR - cannot find reviews | TypeError: Cannot read properties of undefined (reading '_id') 
+16.1.2023, 14:54:17 - ERROR - Cannot get reviews | TypeError: Cannot read properties of undefined (reading '_id') 
+16.1.2023, 14:54:17 - ERROR - cannot find reviews | TypeError: Cannot read properties of undefined (reading '_id') 
+16.1.2023, 14:54:17 - ERROR - Cannot get reviews | TypeError: Cannot read properties of undefined (reading '_id') 
+16.1.2023, 14:54:33 - ERROR - cannot find reviews | TypeError: Cannot read properties of undefined (reading '_id') 
+16.1.2023, 14:54:33 - ERROR - Cannot get reviews | TypeError: Cannot read properties of undefined (reading '_id') 
+16.1.2023, 14:54:33 - ERROR - cannot find reviews | TypeError: Cannot read properties of undefined (reading '_id') 
+16.1.2023, 14:54:33 - ERROR - Cannot get reviews | TypeError: Cannot read properties of undefined (reading '_id') 
+16.1.2023, 14:55:27 - INFO - Server is running on port: 3030 
+16.1.2023, 14:55:29 - ERROR - cannot find reviews | TypeError: Cannot read properties of undefined (reading '_id') 
+16.1.2023, 14:55:29 - ERROR - Cannot get reviews | TypeError: Cannot read properties of undefined (reading '_id') 
+16.1.2023, 14:55:29 - ERROR - cannot find reviews | TypeError: Cannot read properties of undefined (reading '_id') 
+16.1.2023, 14:55:29 - ERROR - Cannot get reviews | TypeError: Cannot read properties of undefined (reading '_id') 
+16.1.2023, 14:56:24 - INFO - Server is running on port: 3030 
+16.1.2023, 14:56:44 - ERROR - cannot find reviews | TypeError: Cannot read properties of undefined (reading '_id') 
+16.1.2023, 14:56:44 - ERROR - Cannot get reviews | TypeError: Cannot read properties of undefined (reading '_id') 
+16.1.2023, 14:56:44 - ERROR - cannot find reviews | TypeError: Cannot read properties of undefined (reading '_id') 
+16.1.2023, 14:56:44 - ERROR - Cannot get reviews | TypeError: Cannot read properties of undefined (reading '_id') 
+16.1.2023, 14:57:35 - INFO - Server is running on port: 3030 
+16.1.2023, 14:57:40 - INFO - Server is running on port: 3030 
+16.1.2023, 14:57:49 - ERROR - cannot find reviews | TypeError: Cannot read properties of undefined (reading '_id') 
+16.1.2023, 14:57:49 - ERROR - Cannot get reviews | TypeError: Cannot read properties of undefined (reading '_id') 
+16.1.2023, 14:57:49 - ERROR - cannot find reviews | TypeError: Cannot read properties of undefined (reading '_id') 
+16.1.2023, 14:57:49 - ERROR - Cannot get reviews | TypeError: Cannot read properties of undefined (reading '_id') 
+16.1.2023, 14:58:35 - INFO - Server is running on port: 3030 
+16.1.2023, 14:58:46 - ERROR - cannot find reviews | TypeError: Cannot read properties of undefined (reading '_id') 
+16.1.2023, 14:58:46 - ERROR - Cannot get reviews | TypeError: Cannot read properties of undefined (reading '_id') 
+16.1.2023, 14:58:46 - ERROR - cannot find reviews | TypeError: Cannot read properties of undefined (reading '_id') 
+16.1.2023, 14:58:46 - ERROR - Cannot get reviews | TypeError: Cannot read properties of undefined (reading '_id') 
+16.1.2023, 14:59:18 - INFO - Server is running on port: 3030 
+16.1.2023, 14:59:27 - ERROR - Cannot get reviews | RangeError [ERR_HTTP_INVALID_STATUS_CODE]: Invalid status code: 0 
+16.1.2023, 14:59:27 - ERROR - Cannot get reviews | RangeError [ERR_HTTP_INVALID_STATUS_CODE]: Invalid status code: 0 
+16.1.2023, 15:00:10 - INFO - Server is running on port: 3030 
+16.1.2023, 15:01:01 - INFO - Server is running on port: 3030 
+16.1.2023, 15:01:18 - INFO - Server is running on port: 3030 
+16.1.2023, 15:02:47 - INFO - Server is running on port: 3030 
+16.1.2023, 15:03:20 - INFO - Server is running on port: 3030 
+16.1.2023, 15:04:17 - INFO - Server is running on port: 3030 
+16.1.2023, 15:04:34 - INFO - Server is running on port: 3030 
+16.1.2023, 15:04:54 - INFO - Server is running on port: 3030 
+16.1.2023, 15:15:29 - INFO - Server is running on port: 3030 
+16.1.2023, 15:17:11 - INFO - Server is running on port: 3030 
+16.1.2023, 15:19:17 - INFO - Server is running on port: 3030 
+16.1.2023, 15:20:35 - INFO - Server is running on port: 3030 
+16.1.2023, 15:20:38 - INFO - New connected socket [id: fkQ1miISOucRVLBEAAAB] 
+16.1.2023, 15:20:38 - INFO - Setting socket.userId = 63c4015820c36ce9b350d9b0 for socket [id: fkQ1miISOucRVLBEAAAB] 
+16.1.2023, 15:25:03 - INFO - Server is running on port: 3030 
+16.1.2023, 15:25:03 - INFO - New connected socket [id: 6d_iJKS1HP0z6_YLAAAB] 
+16.1.2023, 15:25:13 - INFO - Server is running on port: 3030 
+16.1.2023, 15:25:14 - INFO - New connected socket [id: TqaFfBhnKKM-oKFuAAAB] 
+16.1.2023, 15:26:11 - INFO - New chat msg from socket [id: TqaFfBhnKKM-oKFuAAAB], emitting to topic undefined 
+16.1.2023, 15:26:20 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 15:26:20 - INFO - New connected socket [id: zKK3oC7PpIwIfVpnAAAD] 
+16.1.2023, 15:26:21 - INFO - Setting socket.userId = 63c4015820c36ce9b350d9b0 for socket [id: zKK3oC7PpIwIfVpnAAAD] 
+16.1.2023, 15:29:11 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 15:29:11 - INFO - New connected socket [id: tDD1W61CsMEzafsjAAAF] 
+16.1.2023, 15:29:12 - INFO - Setting socket.userId = 63c4015820c36ce9b350d9b0 for socket [id: tDD1W61CsMEzafsjAAAF] 
+16.1.2023, 15:29:30 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 15:29:31 - INFO - New connected socket [id: MJ7d0uvuw7wDMH4nAAAH] 
+16.1.2023, 15:29:31 - INFO - Setting socket.userId = 63c4015820c36ce9b350d9b0 for socket [id: MJ7d0uvuw7wDMH4nAAAH] 
+16.1.2023, 15:30:09 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 15:30:09 - INFO - New connected socket [id: 8noQo3v3DcqwtsksAAAJ] 
+16.1.2023, 15:30:33 - DEBUG - Getting Toys 
+16.1.2023, 15:30:49 - DEBUG - Getting Toys 
+16.1.2023, 15:30:50 - DEBUG - Getting Toys 
+16.1.2023, 15:30:58 - INFO - New chat msg from socket [id: 8noQo3v3DcqwtsksAAAJ], emitting to topic Love 
+16.1.2023, 15:31:03 - INFO - New chat msg from socket [id: 8noQo3v3DcqwtsksAAAJ], emitting to topic Love 
+16.1.2023, 15:31:13 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 15:31:14 - INFO - New connected socket [id: sgJPrJ8sYx5rYm5GAAAL] 
+16.1.2023, 15:31:14 - INFO - Setting socket.userId = 63c551815645057770eeaf0c for socket [id: sgJPrJ8sYx5rYm5GAAAL] 
+16.1.2023, 15:31:16 - INFO - New chat msg from socket [id: sgJPrJ8sYx5rYm5GAAAL], emitting to topic Love 
+16.1.2023, 15:32:33 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 15:32:33 - INFO - New connected socket [id: I1VUS3XMVF1qHsFuAAAN] 
+16.1.2023, 15:32:34 - INFO - Setting socket.userId = 63c551815645057770eeaf0c for socket [id: I1VUS3XMVF1qHsFuAAAN] 
+16.1.2023, 15:32:37 - DEBUG - Getting Toys 
+16.1.2023, 15:32:52 - DEBUG - Getting Toys 
+16.1.2023, 15:32:52 - DEBUG - Getting Toys 
+16.1.2023, 15:32:58 - INFO - New chat msg from socket [id: I1VUS3XMVF1qHsFuAAAN], emitting to topic Love 
+16.1.2023, 15:33:43 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 15:33:43 - INFO - New connected socket [id: _TNNaFNz65IJL0VQAAAP] 
+16.1.2023, 15:33:43 - INFO - Setting socket.userId = 63c551fc5645057770eeaf0d for socket [id: _TNNaFNz65IJL0VQAAAP] 
+16.1.2023, 15:33:47 - INFO - New chat msg from socket [id: _TNNaFNz65IJL0VQAAAP], emitting to topic Love 
+16.1.2023, 15:36:52 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 15:36:53 - INFO - New connected socket [id: -TVzMEo31fs-4XIlAAAR] 
+16.1.2023, 15:36:53 - INFO - Setting socket.userId = 63c551fc5645057770eeaf0d for socket [id: -TVzMEo31fs-4XIlAAAR] 
+16.1.2023, 15:39:01 - INFO - New connected socket [id: awCJz0NS-VdeIUnbAAAT] 
+16.1.2023, 15:39:07 - INFO - New chat msg from socket [id: awCJz0NS-VdeIUnbAAAT], emitting to topic Love 
+16.1.2023, 15:39:19 - INFO - New chat msg from socket [id: -TVzMEo31fs-4XIlAAAR], emitting to topic Love 
+16.1.2023, 15:58:52 - INFO - Socket is leaving topic Love [id: awCJz0NS-VdeIUnbAAAT] 
+16.1.2023, 15:58:52 - INFO - Socket is leaving topic Love [id: -TVzMEo31fs-4XIlAAAR] 
+16.1.2023, 15:59:20 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 15:59:21 - INFO - New connected socket [id: 78jWmg4j13HhGKeDAAAV] 
+16.1.2023, 15:59:22 - INFO - Setting socket.userId = 63c551fc5645057770eeaf0d for socket [id: 78jWmg4j13HhGKeDAAAV] 
+16.1.2023, 16:00:23 - INFO - New chat msg from socket [id: 78jWmg4j13HhGKeDAAAV], emitting to topic 63c02c1b50b22b2c0f8e2c13 
+16.1.2023, 17:25:06 - INFO - Server is running on port: 3030 
+16.1.2023, 17:25:06 - INFO - New connected socket [id: AOdkht89iAHjxpBBAAAC] 
+16.1.2023, 17:25:06 - INFO - New connected socket [id: WhaMjiNK6Jr_cqPDAAAD] 
+16.1.2023, 17:29:17 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 17:29:17 - INFO - New connected socket [id: LRSjEq-_F4kabd_wAAAF] 
+16.1.2023, 17:29:18 - INFO - Setting socket.userId = 63c551fc5645057770eeaf0d for socket [id: LRSjEq-_F4kabd_wAAAF] 
+16.1.2023, 17:29:43 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 17:29:43 - INFO - New connected socket [id: HezKujPI5BkGuZUyAAAH] 
+16.1.2023, 17:29:43 - INFO - Setting socket.userId = 63c551fc5645057770eeaf0d for socket [id: HezKujPI5BkGuZUyAAAH] 
+16.1.2023, 17:31:04 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 17:31:05 - INFO - New connected socket [id: i0RceJMaBPvP5cvyAAAJ] 
+16.1.2023, 17:31:05 - INFO - Setting socket.userId = 63c551fc5645057770eeaf0d for socket [id: i0RceJMaBPvP5cvyAAAJ] 
+16.1.2023, 17:31:34 - INFO - New chat msg from socket [id: i0RceJMaBPvP5cvyAAAJ], emitting to topic 63c02c1b50b22b2c0f8e2c13 
+16.1.2023, 17:31:38 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 17:31:39 - INFO - New connected socket [id: XD-ZyLAhvOui1m3XAAAL] 
+16.1.2023, 17:31:39 - INFO - Setting socket.userId = 63c551fc5645057770eeaf0d for socket [id: XD-ZyLAhvOui1m3XAAAL] 
+16.1.2023, 17:31:41 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 17:31:42 - INFO - New connected socket [id: gtu9lvjhwkRY-C40AAAN] 
+16.1.2023, 17:31:52 - INFO - New chat msg from socket [id: XD-ZyLAhvOui1m3XAAAL], emitting to topic 63c02c1b50b22b2c0f8e2c13 
+16.1.2023, 17:34:14 - INFO - Server is running on port: 3030 
+16.1.2023, 17:34:15 - INFO - New connected socket [id: ZjtOxeMiLY9yuQddAAAB] 
+16.1.2023, 17:34:15 - INFO - New connected socket [id: 00KMiJcm0lPInidvAAAD] 
+16.1.2023, 17:34:17 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 17:34:17 - INFO - New connected socket [id: QJXB7kn8wpm9ClefAAAF] 
+16.1.2023, 17:34:18 - INFO - Setting socket.userId = 63c551fc5645057770eeaf0d for socket [id: QJXB7kn8wpm9ClefAAAF] 
+16.1.2023, 17:34:18 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 17:34:19 - INFO - New connected socket [id: i76BzginSRX7ainOAAAH] 
+16.1.2023, 17:35:25 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 17:35:26 - INFO - New connected socket [id: ex_jRAFh6SQfyakXAAAJ] 
+16.1.2023, 17:35:26 - INFO - Setting socket.userId = 63c551fc5645057770eeaf0d for socket [id: ex_jRAFh6SQfyakXAAAJ] 
+16.1.2023, 17:35:32 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 17:35:33 - INFO - New connected socket [id: VDlRDXE_ln5F1lS0AAAL] 
+16.1.2023, 17:35:41 - INFO - New chat msg from socket [id: VDlRDXE_ln5F1lS0AAAL], emitting to topic 63c02c1b50b22b2c0f8e2c13 
+16.1.2023, 17:44:06 - INFO - New chat msg from socket [id: ex_jRAFh6SQfyakXAAAJ], emitting to topic 63c02c1b50b22b2c0f8e2c13 
+16.1.2023, 17:44:11 - INFO - New chat msg from socket [id: ex_jRAFh6SQfyakXAAAJ], emitting to topic 63c02c1b50b22b2c0f8e2c13 
+16.1.2023, 17:44:15 - INFO - New chat msg from socket [id: VDlRDXE_ln5F1lS0AAAL], emitting to topic 63c02c1b50b22b2c0f8e2c13 
+16.1.2023, 17:44:16 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 17:44:17 - INFO - New connected socket [id: nYsyAGcmwvVBuT5UAAAN] 
+16.1.2023, 17:44:17 - INFO - Setting socket.userId = 63c551fc5645057770eeaf0d for socket [id: nYsyAGcmwvVBuT5UAAAN] 
+16.1.2023, 17:44:17 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 17:44:19 - INFO - New connected socket [id: YEeECHLwzxU-4MywAAAP] 
+16.1.2023, 17:44:26 - INFO - New chat msg from socket [id: nYsyAGcmwvVBuT5UAAAN], emitting to topic 63c02c1b50b22b2c0f8e2c13 
+16.1.2023, 17:44:38 - INFO - New chat msg from socket [id: YEeECHLwzxU-4MywAAAP], emitting to topic 63c02c1b50b22b2c0f8e2c13 
+16.1.2023, 17:44:45 - INFO - New chat msg from socket [id: nYsyAGcmwvVBuT5UAAAN], emitting to topic 63c02c1b50b22b2c0f8e2c13 
+16.1.2023, 17:44:50 - INFO - New chat msg from socket [id: YEeECHLwzxU-4MywAAAP], emitting to topic 63c02c1b50b22b2c0f8e2c13 
+16.1.2023, 17:45:31 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 17:45:32 - INFO - New connected socket [id: QeOC0cguh4bEqvKEAAAR] 
+16.1.2023, 17:45:33 - INFO - Setting socket.userId = 63c551fc5645057770eeaf0d for socket [id: QeOC0cguh4bEqvKEAAAR] 
+16.1.2023, 18:02:58 - INFO - Server is running on port: 3030 
+16.1.2023, 18:02:59 - INFO - New connected socket [id: 5t9bCh0pe5w6WWQFAAAB] 
+16.1.2023, 18:02:59 - INFO - New connected socket [id: yEsJiYvNEVmNFSFtAAAD] 
+16.1.2023, 18:03:00 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 18:03:01 - INFO - New connected socket [id: 1VHsWI5RdH7WQEJMAAAF] 
+16.1.2023, 18:03:01 - ERROR - cannot find reviews | TypeError: Cannot read properties of undefined (reading '_id') 
+16.1.2023, 18:03:01 - ERROR - Cannot get reviews | TypeError: Cannot read properties of undefined (reading '_id') 
+16.1.2023, 18:03:01 - ERROR - cannot find reviews | TypeError: Cannot read properties of undefined (reading '_id') 
+16.1.2023, 18:03:01 - ERROR - Cannot get reviews | TypeError: Cannot read properties of undefined (reading '_id') 
+16.1.2023, 18:03:01 - INFO - Setting socket.userId = 63c551fc5645057770eeaf0d for socket [id: 1VHsWI5RdH7WQEJMAAAF] 
+16.1.2023, 18:03:03 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 18:03:29 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 18:03:29 - INFO - New connected socket [id: YPdSPxcmIM4EBor5AAAH] 
+16.1.2023, 18:03:29 - ERROR - cannot find reviews | TypeError: Cannot read properties of undefined (reading '_id') 
+16.1.2023, 18:03:29 - ERROR - Cannot get reviews | TypeError: Cannot read properties of undefined (reading '_id') 
+16.1.2023, 18:03:29 - ERROR - cannot find reviews | TypeError: Cannot read properties of undefined (reading '_id') 
+16.1.2023, 18:03:29 - ERROR - Cannot get reviews | TypeError: Cannot read properties of undefined (reading '_id') 
+16.1.2023, 18:03:30 - INFO - Setting socket.userId = 63c551fc5645057770eeaf0d for socket [id: YPdSPxcmIM4EBor5AAAH] 
+16.1.2023, 18:04:59 - INFO - Server is running on port: 3030 
+16.1.2023, 18:05:00 - INFO - New connected socket [id: b1P4-PpiPkAjx-g6AAAB] 
+16.1.2023, 18:05:08 - INFO - Server is running on port: 3030 
+16.1.2023, 18:05:09 - INFO - New connected socket [id: eZA1lke-Gujp_schAAAB] 
+16.1.2023, 18:05:10 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 18:05:11 - INFO - New connected socket [id: FanU9MzH0VIqOdZ7AAAD] 
+16.1.2023, 18:05:11 - INFO - Setting socket.userId = 63c551fc5645057770eeaf0d for socket [id: FanU9MzH0VIqOdZ7AAAD] 
+16.1.2023, 18:05:24 - INFO - Server is running on port: 3030 
+16.1.2023, 18:05:25 - INFO - New connected socket [id: 8_qybIGOwo6QfGzpAAAB] 
+16.1.2023, 18:05:31 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 18:05:31 - INFO - New connected socket [id: UafnU6URcfbCTzL4AAAD] 
+16.1.2023, 18:05:31 - ERROR - cannot find reviews | TypeError: Cannot read properties of undefined (reading '_id') 
+16.1.2023, 18:05:31 - ERROR - Cannot get reviews | TypeError: Cannot read properties of undefined (reading '_id') 
+16.1.2023, 18:05:31 - ERROR - cannot find reviews | TypeError: Cannot read properties of undefined (reading '_id') 
+16.1.2023, 18:05:31 - ERROR - Cannot get reviews | TypeError: Cannot read properties of undefined (reading '_id') 
+16.1.2023, 18:05:31 - INFO - Setting socket.userId = 63c551fc5645057770eeaf0d for socket [id: UafnU6URcfbCTzL4AAAD] 
+16.1.2023, 18:13:59 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 18:14:00 - INFO - New connected socket [id: 1CPN5D60DTECXNqIAAAF] 
+16.1.2023, 18:14:00 - ERROR - cannot find reviews | TypeError: Cannot read properties of undefined (reading '_id') 
+16.1.2023, 18:14:00 - ERROR - Cannot get reviews | TypeError: Cannot read properties of undefined (reading '_id') 
+16.1.2023, 18:14:00 - ERROR - cannot find reviews | TypeError: Cannot read properties of undefined (reading '_id') 
+16.1.2023, 18:14:00 - ERROR - Cannot get reviews | TypeError: Cannot read properties of undefined (reading '_id') 
+16.1.2023, 18:14:00 - INFO - Setting socket.userId = 63c551fc5645057770eeaf0d for socket [id: 1CPN5D60DTECXNqIAAAF] 
+16.1.2023, 18:15:40 - INFO - Server is running on port: 3030 
+16.1.2023, 18:15:41 - INFO - New connected socket [id: gxo2YAbQjfGdrGgWAAAB] 
+16.1.2023, 18:16:00 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 18:16:00 - INFO - New connected socket [id: L5DU37m6zhLk0xytAAAD] 
+16.1.2023, 18:16:01 - ERROR - cannot find reviews | TypeError: Cannot read properties of undefined (reading '_id') 
+16.1.2023, 18:16:01 - ERROR - Cannot get reviews | TypeError: Cannot read properties of undefined (reading '_id') 
+16.1.2023, 18:16:01 - ERROR - cannot find reviews | TypeError: Cannot read properties of undefined (reading '_id') 
+16.1.2023, 18:16:01 - ERROR - Cannot get reviews | TypeError: Cannot read properties of undefined (reading '_id') 
+16.1.2023, 18:16:01 - INFO - Setting socket.userId = 63c551fc5645057770eeaf0d for socket [id: L5DU37m6zhLk0xytAAAD] 
+16.1.2023, 18:16:43 - INFO - Server is running on port: 3030 
+16.1.2023, 18:16:44 - INFO - New connected socket [id: HSZdJo6oWcY-xlVpAAAB] 
+16.1.2023, 18:18:32 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 18:18:32 - INFO - New connected socket [id: Xdi1wRj8nXvx_4lrAAAD] 
+16.1.2023, 18:18:32 - ERROR - cannot find reviews | TypeError: Cannot read properties of undefined (reading '_id') 
+16.1.2023, 18:18:32 - ERROR - Cannot get reviews | TypeError: Cannot read properties of undefined (reading '_id') 
+16.1.2023, 18:18:32 - ERROR - cannot find reviews | TypeError: Cannot read properties of undefined (reading '_id') 
+16.1.2023, 18:18:32 - ERROR - Cannot get reviews | TypeError: Cannot read properties of undefined (reading '_id') 
+16.1.2023, 18:18:32 - INFO - Setting socket.userId = 63c551fc5645057770eeaf0d for socket [id: Xdi1wRj8nXvx_4lrAAAD] 
+16.1.2023, 18:32:15 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 18:32:16 - INFO - New connected socket [id: FbVmlCjutZNqmjAPAAAF] 
+16.1.2023, 18:32:16 - ERROR - cannot find reviews | TypeError: Cannot read properties of undefined (reading '_id') 
+16.1.2023, 18:32:16 - ERROR - Cannot get reviews | TypeError: Cannot read properties of undefined (reading '_id') 
+16.1.2023, 18:32:16 - ERROR - cannot find reviews | TypeError: Cannot read properties of undefined (reading '_id') 
+16.1.2023, 18:32:16 - ERROR - Cannot get reviews | TypeError: Cannot read properties of undefined (reading '_id') 
+16.1.2023, 18:32:16 - INFO - Setting socket.userId = 63c551fc5645057770eeaf0d for socket [id: FbVmlCjutZNqmjAPAAAF] 
+16.1.2023, 18:36:34 - DEBUG - Getting Toys 
+16.1.2023, 18:36:34 - DEBUG - Getting Toys 
+16.1.2023, 18:36:37 - DEBUG - Getting Toys 
+16.1.2023, 18:36:38 - DEBUG - Getting Toys 
+16.1.2023, 18:36:39 - DEBUG - Getting Toys 
+16.1.2023, 18:38:41 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 18:38:42 - INFO - New connected socket [id: 56PA-CAm4cslLfObAAAH] 
+16.1.2023, 18:38:42 - DEBUG - Getting Toys 
+16.1.2023, 18:38:42 - INFO - Setting socket.userId = 63c551fc5645057770eeaf0d for socket [id: 56PA-CAm4cslLfObAAAH] 
+16.1.2023, 18:38:42 - DEBUG - Getting Toys 
+16.1.2023, 18:38:58 - DEBUG - Getting Toys 
+16.1.2023, 18:38:59 - DEBUG - Getting Toys 
+16.1.2023, 18:38:59 - DEBUG - Getting Toys 
+16.1.2023, 18:39:28 - ERROR - cannot find reviews | TypeError: Cannot read properties of undefined (reading '_id') 
+16.1.2023, 18:39:28 - ERROR - Cannot get reviews | TypeError: Cannot read properties of undefined (reading '_id') 
+16.1.2023, 18:39:28 - ERROR - cannot find reviews | TypeError: Cannot read properties of undefined (reading '_id') 
+16.1.2023, 18:39:28 - ERROR - Cannot get reviews | TypeError: Cannot read properties of undefined (reading '_id') 
+16.1.2023, 18:41:29 - ERROR - cannot find reviews | TypeError: Cannot read properties of undefined (reading '_id') 
+16.1.2023, 18:41:29 - ERROR - Cannot get reviews | TypeError: Cannot read properties of undefined (reading '_id') 
+16.1.2023, 18:41:31 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 18:41:31 - INFO - New connected socket [id: XZOYqE2k4yKbrWwtAAAJ] 
+16.1.2023, 18:41:31 - ERROR - cannot find reviews | TypeError: Cannot read properties of undefined (reading '_id') 
+16.1.2023, 18:41:31 - ERROR - Cannot get reviews | TypeError: Cannot read properties of undefined (reading '_id') 
+16.1.2023, 18:41:31 - ERROR - cannot find reviews | TypeError: Cannot read properties of undefined (reading '_id') 
+16.1.2023, 18:41:31 - ERROR - Cannot get reviews | TypeError: Cannot read properties of undefined (reading '_id') 
+16.1.2023, 18:41:31 - INFO - Setting socket.userId = 63c551fc5645057770eeaf0d for socket [id: XZOYqE2k4yKbrWwtAAAJ] 
+16.1.2023, 18:41:38 - DEBUG - Getting Toys 
+16.1.2023, 18:41:39 - DEBUG - Getting Toys 
+16.1.2023, 18:41:43 - ERROR - cannot find reviews | TypeError: Cannot read properties of undefined (reading '_id') 
+16.1.2023, 18:41:43 - ERROR - Cannot get reviews | TypeError: Cannot read properties of undefined (reading '_id') 
+16.1.2023, 18:41:43 - INFO - Socket is leaving topic 63c02c1b50b22b2c0f8e2c13 [id: XZOYqE2k4yKbrWwtAAAJ] 
+16.1.2023, 18:57:34 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 18:57:35 - INFO - New connected socket [id: RgqZEBTzT4IPHQO3AAAL] 
+16.1.2023, 18:57:35 - ERROR - cannot find reviews | TypeError: Cannot read properties of undefined (reading '_id') 
+16.1.2023, 18:57:35 - ERROR - Cannot get reviews | TypeError: Cannot read properties of undefined (reading '_id') 
+16.1.2023, 18:57:35 - INFO - Setting socket.userId = 63c551fc5645057770eeaf0d for socket [id: RgqZEBTzT4IPHQO3AAAL] 
+16.1.2023, 19:35:42 - ERROR - Cannot get reviews | TypeError: Cannot read properties of undefined (reading '_id') 
+16.1.2023, 19:35:42 - ERROR - cannot find reviews | TypeError: Cannot read properties of undefined (reading '_id') 
+16.1.2023, 19:35:44 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 19:35:44 - INFO - New connected socket [id: K6hclEHwN5vZwNG8AAAN] 
+16.1.2023, 19:35:45 - ERROR - cannot find reviews | TypeError: Cannot read properties of undefined (reading '_id') 
+16.1.2023, 19:35:45 - ERROR - Cannot get reviews | TypeError: Cannot read properties of undefined (reading '_id') 
+16.1.2023, 19:35:45 - INFO - Setting socket.userId = 63c551fc5645057770eeaf0d for socket [id: K6hclEHwN5vZwNG8AAAN] 
+16.1.2023, 19:35:59 - ERROR - cannot find reviews | TypeError: Cannot read properties of undefined (reading '_id') 
+16.1.2023, 19:35:59 - ERROR - Cannot get reviews | TypeError: Cannot read properties of undefined (reading '_id') 
+16.1.2023, 19:36:01 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 19:36:01 - INFO - New connected socket [id: DN2GB8ojPh_3qqm4AAAP] 
+16.1.2023, 19:36:01 - ERROR - cannot find reviews | TypeError: Cannot read properties of undefined (reading '_id') 
+16.1.2023, 19:36:01 - ERROR - Cannot get reviews | TypeError: Cannot read properties of undefined (reading '_id') 
+16.1.2023, 19:36:02 - INFO - Setting socket.userId = 63c551fc5645057770eeaf0d for socket [id: DN2GB8ojPh_3qqm4AAAP] 
+16.1.2023, 19:37:26 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 19:37:26 - INFO - New connected socket [id: HKY4x2Bdv1yfpt8KAAAR] 
+16.1.2023, 19:37:26 - ERROR - cannot find reviews | TypeError: Cannot read properties of undefined (reading '_id') 
+16.1.2023, 19:37:26 - ERROR - Cannot get reviews | TypeError: Cannot read properties of undefined (reading '_id') 
+16.1.2023, 19:37:26 - INFO - Setting socket.userId = 63c551fc5645057770eeaf0d for socket [id: HKY4x2Bdv1yfpt8KAAAR] 
+16.1.2023, 19:39:11 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 19:39:11 - INFO - New connected socket [id: bha-NA4O_Y4voy1qAAAT] 
+16.1.2023, 19:39:11 - INFO - Setting socket.userId = 63c551fc5645057770eeaf0d for socket [id: bha-NA4O_Y4voy1qAAAT] 
+16.1.2023, 19:39:40 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 19:39:40 - INFO - New connected socket [id: D5cRO9R-ML943wvyAAAV] 
+16.1.2023, 19:39:41 - ERROR - cannot find reviews | TypeError: Cannot read properties of undefined (reading '_id') 
+16.1.2023, 19:39:41 - ERROR - Cannot get reviews | TypeError: Cannot read properties of undefined (reading '_id') 
+16.1.2023, 19:39:41 - INFO - Setting socket.userId = 63c551fc5645057770eeaf0d for socket [id: D5cRO9R-ML943wvyAAAV] 
+16.1.2023, 19:39:50 - DEBUG - Getting Toys 
+16.1.2023, 19:39:51 - DEBUG - Getting Toys 
+16.1.2023, 19:39:55 - ERROR - cannot find reviews | TypeError: Cannot read properties of undefined (reading '_id') 
+16.1.2023, 19:39:55 - ERROR - Cannot get reviews | TypeError: Cannot read properties of undefined (reading '_id') 
+16.1.2023, 19:41:28 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 19:41:28 - INFO - New connected socket [id: q7gnjNbGF9AyGWZNAAAX] 
+16.1.2023, 19:41:28 - ERROR - cannot find reviews | TypeError: Cannot read properties of undefined (reading '_id') 
+16.1.2023, 19:41:28 - ERROR - Cannot get reviews | TypeError: Cannot read properties of undefined (reading '_id') 
+16.1.2023, 19:41:28 - INFO - Setting socket.userId = 63c551fc5645057770eeaf0d for socket [id: q7gnjNbGF9AyGWZNAAAX] 
+16.1.2023, 19:41:42 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 19:41:42 - INFO - New connected socket [id: 4Szc6g3PhZQ4zaCQAAAZ] 
+16.1.2023, 19:41:43 - INFO - Setting socket.userId = 63c551fc5645057770eeaf0d for socket [id: 4Szc6g3PhZQ4zaCQAAAZ] 
+16.1.2023, 19:42:39 - DEBUG - Getting Toys 
+16.1.2023, 19:42:40 - DEBUG - Getting Toys 
+16.1.2023, 19:42:44 - INFO - Socket is leaving topic 63c0257e50b22b2c0f8e2c09 [id: 4Szc6g3PhZQ4zaCQAAAZ] 
+16.1.2023, 19:43:01 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 19:43:01 - INFO - New connected socket [id: hgp2k8DQz_JxLb-MAAAb] 
+16.1.2023, 19:43:01 - ERROR - cannot find reviews | TypeError: Cannot read properties of undefined (reading '_id') 
+16.1.2023, 19:43:01 - ERROR - Cannot get reviews | TypeError: Cannot read properties of undefined (reading '_id') 
+16.1.2023, 19:43:02 - INFO - Setting socket.userId = 63c551fc5645057770eeaf0d for socket [id: hgp2k8DQz_JxLb-MAAAb] 
+16.1.2023, 19:43:18 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 19:43:18 - INFO - New connected socket [id: GnmtJOY0f9ajp2NXAAAd] 
+16.1.2023, 19:43:19 - ERROR - cannot find reviews | TypeError: Cannot read properties of undefined (reading '_id') 
+16.1.2023, 19:43:19 - ERROR - Cannot get reviews | TypeError: Cannot read properties of undefined (reading '_id') 
+16.1.2023, 19:43:19 - INFO - Setting socket.userId = 63c551fc5645057770eeaf0d for socket [id: GnmtJOY0f9ajp2NXAAAd] 
+16.1.2023, 19:51:03 - INFO - Server is running on port: 3030 
+16.1.2023, 19:51:04 - INFO - New connected socket [id: etFRRtFDBU778KI6AAAB] 
+16.1.2023, 19:51:10 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 19:51:11 - INFO - New connected socket [id: 4SVOgFSLKxKfGnFlAAAD] 
+16.1.2023, 19:51:11 - ERROR - cannot find reviews | TypeError: Cannot read properties of undefined (reading '_id') 
+16.1.2023, 19:51:11 - ERROR - Cannot get reviews | TypeError: Cannot read properties of undefined (reading '_id') 
+16.1.2023, 19:51:12 - INFO - Setting socket.userId = 63c551fc5645057770eeaf0d for socket [id: 4SVOgFSLKxKfGnFlAAAD] 
+16.1.2023, 19:51:44 - INFO - Server is running on port: 3030 
+16.1.2023, 19:51:45 - INFO - New connected socket [id: xMOTWXWOMN3MuzhQAAAB] 
+16.1.2023, 19:51:45 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 19:51:46 - INFO - New connected socket [id: IzmXGkIDMXocMj9MAAAD] 
+16.1.2023, 19:51:46 - ERROR - cannot find reviews | TypeError: Cannot read properties of undefined (reading '_id') 
+16.1.2023, 19:51:46 - ERROR - Cannot get reviews | TypeError: Cannot read properties of undefined (reading '_id') 
+16.1.2023, 19:51:46 - INFO - Setting socket.userId = 63c551fc5645057770eeaf0d for socket [id: IzmXGkIDMXocMj9MAAAD] 
+16.1.2023, 19:52:01 - INFO - Server is running on port: 3030 
+16.1.2023, 19:52:02 - INFO - New connected socket [id: 7LJwbXhU1fOGth4fAAAB] 
+16.1.2023, 19:52:02 - INFO - New connected socket [id: OmaQkHe0-bNwWN3MAAAD] 
+16.1.2023, 19:52:02 - ERROR - cannot find reviews | TypeError: Cannot read properties of undefined (reading '_id') 
+16.1.2023, 19:52:02 - ERROR - Cannot get reviews | TypeError: Cannot read properties of undefined (reading '_id') 
+16.1.2023, 19:52:02 - INFO - Setting socket.userId = 63c551fc5645057770eeaf0d for socket [id: OmaQkHe0-bNwWN3MAAAD] 
+16.1.2023, 19:52:47 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 19:53:25 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 19:53:25 - INFO - New connected socket [id: 3Gia2S1aVnpm6-JIAAAF] 
+16.1.2023, 19:53:25 - ERROR - cannot find reviews | TypeError: Cannot read properties of undefined (reading '_id') 
+16.1.2023, 19:53:25 - ERROR - Cannot get reviews | TypeError: Cannot read properties of undefined (reading '_id') 
+16.1.2023, 19:53:26 - INFO - Setting socket.userId = 63c551fc5645057770eeaf0d for socket [id: 3Gia2S1aVnpm6-JIAAAF] 
+16.1.2023, 20:04:49 - INFO - New chat msg from socket [id: 3Gia2S1aVnpm6-JIAAAF], emitting to topic 63c0414e0eb94ecdeb32a3f0 
+16.1.2023, 20:05:07 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 20:05:07 - INFO - New connected socket [id: bKd6s3I7RTzWro1_AAAH] 
+16.1.2023, 20:05:08 - ERROR - cannot find reviews | TypeError: Cannot read properties of undefined (reading '_id') 
+16.1.2023, 20:05:08 - ERROR - Cannot get reviews | TypeError: Cannot read properties of undefined (reading '_id') 
+16.1.2023, 20:05:08 - INFO - Setting socket.userId = 63c551fc5645057770eeaf0d for socket [id: bKd6s3I7RTzWro1_AAAH] 
+16.1.2023, 20:05:42 - ERROR - cannot find reviews | TypeError: Cannot read properties of undefined (reading '_id') 
+16.1.2023, 20:05:42 - ERROR - Cannot get reviews | TypeError: Cannot read properties of undefined (reading '_id') 
+16.1.2023, 20:05:48 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 20:05:48 - INFO - New connected socket [id: dxXoiRhb0RIMZ-9AAAAJ] 
+16.1.2023, 20:05:49 - ERROR - cannot find reviews | TypeError: Cannot read properties of undefined (reading '_id') 
+16.1.2023, 20:05:49 - ERROR - Cannot get reviews | TypeError: Cannot read properties of undefined (reading '_id') 
+16.1.2023, 20:05:49 - INFO - Setting socket.userId = 63c551fc5645057770eeaf0d for socket [id: dxXoiRhb0RIMZ-9AAAAJ] 
+16.1.2023, 20:08:55 - DEBUG - Getting Toys 
+16.1.2023, 20:08:56 - DEBUG - Getting Toys 
+16.1.2023, 20:18:27 - ERROR - cannot find reviews | TypeError: Cannot read properties of undefined (reading '_id') 
+16.1.2023, 20:18:27 - ERROR - Cannot get reviews | TypeError: Cannot read properties of undefined (reading '_id') 
+16.1.2023, 20:18:27 - INFO - Socket is leaving topic 63c0414e0eb94ecdeb32a3f0 [id: dxXoiRhb0RIMZ-9AAAAJ] 
+16.1.2023, 20:18:30 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 20:18:31 - INFO - New connected socket [id: nqB_rBlOfx7Tu1F3AAAL] 
+16.1.2023, 20:18:31 - ERROR - cannot find reviews | TypeError: Cannot read properties of undefined (reading '_id') 
+16.1.2023, 20:18:31 - ERROR - Cannot get reviews | TypeError: Cannot read properties of undefined (reading '_id') 
+16.1.2023, 20:18:31 - INFO - Setting socket.userId = 63c551fc5645057770eeaf0d for socket [id: nqB_rBlOfx7Tu1F3AAAL] 
+16.1.2023, 20:19:30 - INFO - Server is running on port: 3030 
+16.1.2023, 20:19:31 - INFO - New connected socket [id: 22SVTo44uvQxGJimAAAB] 
+16.1.2023, 20:19:33 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 20:19:34 - INFO - New connected socket [id: fqXvbC5s4LxM7MxRAAAD] 
+16.1.2023, 20:19:34 - ERROR - cannot find reviews | TypeError: Cannot read properties of undefined (reading '_id') 
+16.1.2023, 20:19:34 - ERROR - Cannot get reviews | TypeError: Cannot read properties of undefined (reading '_id') 
+16.1.2023, 20:19:34 - INFO - Setting socket.userId = 63c551fc5645057770eeaf0d for socket [id: fqXvbC5s4LxM7MxRAAAD] 
+16.1.2023, 20:23:46 - ERROR - cannot find reviews | TypeError: Cannot read properties of undefined (reading '_id') 
+16.1.2023, 20:23:46 - ERROR - Cannot get reviews | TypeError: Cannot read properties of undefined (reading '_id') 
+16.1.2023, 20:23:48 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 20:23:48 - INFO - New connected socket [id: l_SgWidgdgyEpo4cAAAF] 
+16.1.2023, 20:23:49 - ERROR - cannot find reviews | TypeError: Cannot read properties of undefined (reading '_id') 
+16.1.2023, 20:23:49 - ERROR - Cannot get reviews | TypeError: Cannot read properties of undefined (reading '_id') 
+16.1.2023, 20:23:49 - INFO - Setting socket.userId = 63c551fc5645057770eeaf0d for socket [id: l_SgWidgdgyEpo4cAAAF] 
+16.1.2023, 20:28:00 - INFO - Server is running on port: 3030 
+16.1.2023, 20:28:00 - INFO - New connected socket [id: R0-unp4gZJA-tCUFAAAB] 
+16.1.2023, 20:28:03 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 20:28:03 - INFO - New connected socket [id: VdoV5SYOe2WJ-cqmAAAD] 
+16.1.2023, 20:28:04 - ERROR - cannot find reviews | TypeError: Cannot read properties of undefined (reading '_id') 
+16.1.2023, 20:28:04 - ERROR - Cannot get reviews | TypeError: Cannot read properties of undefined (reading '_id') 
+16.1.2023, 20:28:04 - ERROR - cannot find reviews | TypeError: Cannot read properties of undefined (reading '_id') 
+16.1.2023, 20:28:04 - INFO - Setting socket.userId = 63c551fc5645057770eeaf0d for socket [id: VdoV5SYOe2WJ-cqmAAAD] 
+16.1.2023, 20:28:04 - ERROR - Cannot get reviews | TypeError: Cannot read properties of undefined (reading '_id') 
+16.1.2023, 20:28:40 - INFO - Server is running on port: 3030 
+16.1.2023, 20:28:40 - INFO - New connected socket [id: h170pq5UtVAKivUaAAAB] 
+16.1.2023, 20:28:43 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 20:28:43 - INFO - New connected socket [id: R6NUBrsVD8dD09WrAAAD] 
+16.1.2023, 20:28:43 - ERROR - cannot find reviews | TypeError: Cannot read properties of undefined (reading '_id') 
+16.1.2023, 20:28:43 - ERROR - Cannot get reviews | TypeError: Cannot read properties of undefined (reading '_id') 
+16.1.2023, 20:28:43 - ERROR - cannot find reviews | TypeError: Cannot read properties of undefined (reading '_id') 
+16.1.2023, 20:28:43 - ERROR - Cannot get reviews | TypeError: Cannot read properties of undefined (reading '_id') 
+16.1.2023, 20:28:43 - INFO - Setting socket.userId = 63c551fc5645057770eeaf0d for socket [id: R6NUBrsVD8dD09WrAAAD] 
+16.1.2023, 20:29:46 - INFO - Server is running on port: 3030 
+16.1.2023, 20:29:47 - INFO - New connected socket [id: m6nDo0ZkKT0gxdBvAAAB] 
+16.1.2023, 20:30:19 - INFO - Server is running on port: 3030 
+16.1.2023, 20:30:19 - INFO - New connected socket [id: H_6F0hD9IemBtRmmAAAB] 
+16.1.2023, 20:30:20 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 20:30:20 - INFO - New connected socket [id: LyTbLSUtrHD3_p5RAAAD] 
+16.1.2023, 20:30:21 - ERROR - cannot find reviews | TypeError: Cannot read properties of undefined (reading '_id') 
+16.1.2023, 20:30:21 - ERROR - Cannot get reviews | TypeError: Cannot read properties of undefined (reading '_id') 
+16.1.2023, 20:30:21 - INFO - Setting socket.userId = 63c551fc5645057770eeaf0d for socket [id: LyTbLSUtrHD3_p5RAAAD] 
+16.1.2023, 20:30:39 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 20:30:40 - INFO - New connected socket [id: Jg7wK2kWaA0wrTd1AAAF] 
+16.1.2023, 20:30:40 - ERROR - cannot find reviews | TypeError: Cannot read properties of undefined (reading '_id') 
+16.1.2023, 20:30:40 - ERROR - Cannot get reviews | TypeError: Cannot read properties of undefined (reading '_id') 
+16.1.2023, 20:30:40 - INFO - Setting socket.userId = 63c551fc5645057770eeaf0d for socket [id: Jg7wK2kWaA0wrTd1AAAF] 
+16.1.2023, 20:32:28 - INFO - Server is running on port: 3030 
+16.1.2023, 20:32:29 - INFO - New connected socket [id: sfRwfPcyBkwriz5iAAAB] 
+16.1.2023, 20:32:30 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 20:32:31 - INFO - New connected socket [id: PMdEjcjOK2eXdrkgAAAD] 
+16.1.2023, 20:32:31 - ERROR - cannot find reviews | TypeError: Cannot read properties of undefined (reading '_id') 
+16.1.2023, 20:32:31 - ERROR - Cannot get reviews | TypeError: Cannot read properties of undefined (reading '_id') 
+16.1.2023, 20:32:31 - INFO - Setting socket.userId = 63c551fc5645057770eeaf0d for socket [id: PMdEjcjOK2eXdrkgAAAD] 
+16.1.2023, 20:33:08 - INFO - Server is running on port: 3030 
+16.1.2023, 20:33:08 - INFO - New connected socket [id: RlQXdkp_xu3E4BLxAAAB] 
+16.1.2023, 20:33:17 - INFO - Server is running on port: 3030 
+16.1.2023, 20:33:17 - INFO - New connected socket [id: TprPnmshXG1gsos8AAAB] 
+16.1.2023, 20:33:18 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 20:33:19 - INFO - New connected socket [id: zafJYdHp_WNUqGCMAAAD] 
+16.1.2023, 20:33:19 - ERROR - cannot find reviews | TypeError: Cannot read properties of undefined (reading '_id') 
+16.1.2023, 20:33:19 - ERROR - Cannot get reviews | TypeError: Cannot read properties of undefined (reading '_id') 
+16.1.2023, 20:33:19 - INFO - Setting socket.userId = 63c551fc5645057770eeaf0d for socket [id: zafJYdHp_WNUqGCMAAAD] 
+16.1.2023, 20:34:13 - INFO - Server is running on port: 3030 
+16.1.2023, 20:34:14 - INFO - New connected socket [id: tsllgveyqcmCuXAhAAAB] 
+16.1.2023, 20:34:14 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 20:34:15 - INFO - New connected socket [id: pgqZmFKhFsB-uZJQAAAD] 
+16.1.2023, 20:34:15 - ERROR - cannot find reviews | TypeError: Cannot read properties of undefined (reading '_id') 
+16.1.2023, 20:34:15 - ERROR - Cannot get reviews | TypeError: Cannot read properties of undefined (reading '_id') 
+16.1.2023, 20:34:15 - INFO - Setting socket.userId = 63c551fc5645057770eeaf0d for socket [id: pgqZmFKhFsB-uZJQAAAD] 
+16.1.2023, 20:34:30 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 20:34:30 - INFO - New connected socket [id: yGk6Gx58673xCLS6AAAF] 
+16.1.2023, 20:34:30 - ERROR - cannot find reviews | TypeError: Cannot read properties of undefined (reading '_id') 
+16.1.2023, 20:34:30 - ERROR - Cannot get reviews | TypeError: Cannot read properties of undefined (reading '_id') 
+16.1.2023, 20:34:31 - INFO - Setting socket.userId = 63c551fc5645057770eeaf0d for socket [id: yGk6Gx58673xCLS6AAAF] 
+16.1.2023, 20:35:07 - INFO - Server is running on port: 3030 
+16.1.2023, 20:35:08 - INFO - New connected socket [id: o8xraQuFVFTv2cu2AAAB] 
+16.1.2023, 20:36:18 - INFO - Server is running on port: 3030 
+16.1.2023, 20:36:21 - INFO - New connected socket [id: 1HWZReUOUkmcZMIDAAAB] 
+16.1.2023, 20:36:24 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 20:36:24 - INFO - New connected socket [id: U2IcDDufedJ4m-PMAAAD] 
+16.1.2023, 20:36:25 - ERROR - cannot find reviews | TypeError: Cannot read properties of undefined (reading '_id') 
+16.1.2023, 20:36:25 - ERROR - Cannot get reviews | TypeError: Cannot read properties of undefined (reading '_id') 
+16.1.2023, 20:36:25 - INFO - Setting socket.userId = 63c551fc5645057770eeaf0d for socket [id: U2IcDDufedJ4m-PMAAAD] 
+5.2.2023, 9:28:10 - INFO - Server is running on port: 3030 
+5.2.2023, 9:28:39 - INFO - New connected socket [id: aX1g2PkIPzG7yHcDAAAB] 
+5.2.2023, 9:28:39 - DEBUG - Getting Toys 
+5.2.2023, 9:28:45 - DEBUG - Getting Toys 
+5.2.2023, 9:28:45 - DEBUG - Getting Toys 
+5.2.2023, 9:28:46 - DEBUG - Getting Toys 
+5.2.2023, 9:28:53 - DEBUG - Getting Toys 
+5.2.2023, 9:28:53 - DEBUG - Getting Toys 
+5.2.2023, 9:28:58 - DEBUG - Getting Toys 
+5.2.2023, 9:29:00 - DEBUG - Getting Toys 
+5.2.2023, 9:29:00 - DEBUG - Getting Toys 
+5.2.2023, 9:29:12 - DEBUG - Getting Toys 
+5.2.2023, 9:29:27 - DEBUG - Getting Toys 
+5.2.2023, 9:29:27 - DEBUG - Getting Toys 
+5.2.2023, 9:29:33 - DEBUG - Getting Toys 

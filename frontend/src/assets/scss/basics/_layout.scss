@@ -1,0 +1,34 @@
+.main-layout {
+    display: grid;
+    grid-template-columns: $layoutPadding 1fr $layoutPadding;
+    > * {
+        grid-column: 2;
+    }
+
+    .full {
+        grid-column: 1 / -1;
+    }
+    
+    .side-start {
+        grid-column: 1 / -2;
+    }
+    
+    .side-end {
+        grid-column: -1 / 2;
+    }
+
+    // NARROW
+    @include for-narrow-layout {
+        @include gtcMainLayout($break-narrow)
+    }
+    
+    // NORMAL
+    @include for-normal-layout {
+        @include gtcMainLayout($break-normal)
+    }
+    
+    // WIDE
+    @include for-wide-layout {
+        @include gtcMainLayout($break-wide)
+    }
+}

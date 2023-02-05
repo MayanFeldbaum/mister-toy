@@ -1,0 +1,11 @@
+.charts-preview{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+}
+
+.inventory-by-type, .prices-per-toy-label{
+    width: 250px;
+    height: auto;
+    margin-top:10px;
+}

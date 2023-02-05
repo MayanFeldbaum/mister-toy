@@ -1,0 +1,48 @@
+.cover-home {
+    height: 700px;
+    background-image: url(../../img/cover.jpg);
+    background-repeat: none;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+}
+
+.home-page h1{
+    position: absolute;
+    text-align: top;
+    width: 100%;
+    height: 0%;
+    margin: auto;
+    top: 0;
+    left: 0;
+    bottom: 400px;
+    right: 0;
+    z-index: 51;
+    font-size: max(5vw, 30px);
+}
+
+.home-page .slogan{
+    position: absolute;
+    text-align: top;
+    width: 100%;
+    height: 0%;
+    margin: auto;
+    top: 0;
+    left: 0;
+    bottom: -100px;
+    right: 0;
+    z-index: 51;
+    font-size: max(2vw, 20px);
+}
+
+.home-page h2{
+    font-size: max(2vw, 20px);
+}
+
+.products-sale{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    grid-auto-rows: auto;
+    margin-left: auto;
+    margin-right: auto;
+}

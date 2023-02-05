@@ -1,0 +1,47 @@
+.toy-filter,
+.toy-sort {
+    margin: 20px 0px;
+}
+
+input {
+    font-size: 1rem;
+    padding: .3em .3em;
+    border: 1px black solid;
+    border-radius: .5em;
+    margin-inline-end: 10px;
+}
+
+.toy-sort button {
+    background-color: transparent;
+    border: none;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.toy-sort a {
+    background-color: $clr1;
+    color: black;
+    padding: 5px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+
+    &:hover {
+        background-color: $clr2;
+    }
+}
+
+.toy-filter form, .toy-sort{
+display: flex;
+flex-wrap: wrap;
+align-items: center;
+justify-content: center;
+}
+
+.filters{
+display:flex;
+flex-wrap: wrap;
+align-items: center;
+justify-content: center;
+}
+

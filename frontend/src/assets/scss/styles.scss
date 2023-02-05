@@ -1,0 +1,27 @@
+// body{
+//     background-color:grey;
+// }
+
+// SETUP
+// @import 'setup/typography';
+// @import 'setup/functions';
+@import 'setup/variables';
+@import 'setup/mixins';
+
+// BASICS
+// @import 'basics/helpers';
+@import 'basics/base';
+// @import 'basics/layout';
+
+// COMPONENTS
+@import 'cmps/header';
+@import 'cmps/filters';
+@import 'cmps/list';
+@import 'cmps/chart';
+
+
+//VIEWS
+@import 'views/home';
+@import 'views/details';
+@import 'views/edit';
+@import "views/review-app";

@@ -8,17 +8,12 @@ import { loadToys } from '../store/actions/toy.action'
 export function DashboardPage() {
     const toys = useSelector((storeState) => storeState.toyModule.toys)
     const labels = ['On wheels', 'Box game', 'Art', 'Baby', 'Doll', 'Puzzle', 'Outdoor', 'Battery Powered']
+    const sortBy = useSelector((storeState) => storeState.toyModule.sortBy)
+    const filterBy = useSelector((storeState) => storeState.toyModule.filterBy)
 
     useEffect(() => {
-        onLoadToys()
-    }, [])
-
-    function onLoadToys() {
-        loadToys()
-            .catch(err => {
-                showErrorMsg('Cannot load cars', err)
-            })
-    }
+        loadToys(filterBy, sortBy)
+    }, [filterBy, sortBy])
 
     function pricePerLabels() {
         const avgPriceLabels = labels.map(label => {
@@ -46,13 +41,15 @@ export function DashboardPage() {
 
     return <section className="dashboard-page">
         <h1>Dashboard Page</h1>
-        <div className="prices-per-toy-label">
-            <span>Prices per toy label</span>
-            <ToyChart dataChart={pricePerLabels()} labels={labels} />
-        </div>
-        <div className="inventory-by-type">
-            <span>Inventory by type</span>
-            <ToyChart dataChart={inventoryByType()} labels={labels} />
+        <div className="charts-preview">
+            <div className="prices-per-toy-label">
+                <span>Prices per toy label</span>
+                <ToyChart dataChart={pricePerLabels()} labels={labels} />
+            </div>
+            <div className="inventory-by-type">
+                <span>Inventory by type</span>
+                <ToyChart dataChart={inventoryByType()} labels={labels} />
+            </div>
         </div>
     </section>
 }

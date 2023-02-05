@@ -17,7 +17,7 @@ export function ToyFilter({ onSetFilter }) {
     function handleChange({ target }) {
         let { value, name: field, type } = target
         value = (type === 'number') ? +value : value
-        value = (type === 'number'&& value<=0) ? '' : value
+        value = (type === 'number' && value <= 0) ? '' : value
         setFilterByToEdit((prevFilter) => ({ ...prevFilter, [field]: value }))
     }
 
@@ -32,9 +32,8 @@ export function ToyFilter({ onSetFilter }) {
     }
 
     return <section className="toy-filter full main-layout">
-        <h2>Toy Filter</h2>
         <form onSubmit={onSubmitFilter}>
-            <label htmlFor="name">Name:</label>
+            {/* <label htmlFor="name">Name:</label> */}
             <input type="text"
                 id="name"
                 name="name"
@@ -43,7 +42,7 @@ export function ToyFilter({ onSetFilter }) {
                 onChange={handleChange}
             />
 
-            <label htmlFor="price">Max price:</label>
+            {/* <label htmlFor="price">Max price:</label> */}
             <input type="number"
                 id="price"
                 name="price"
@@ -51,10 +50,8 @@ export function ToyFilter({ onSetFilter }) {
                 value={filterByToEdit.price}
                 onChange={handleChange}
             />
-
             <label htmlFor="inStock" >In stock</label>
             <input name="inStock" type="checkbox" onChange={() => { onToggleInStock() }} />
-
             <button hidden>Filter</button>
         </form>
     </section >

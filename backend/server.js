@@ -1,9 +1,9 @@
 const express = require('express')
 const cookieParser = require('cookie-parser')
 const cors = require('cors')
-const toyService = require('./services/toy.service')
-
+const path = require('path')
 const app = express()
+const http = require('http').createServer(app)
 
 // Express App Config
 app.use(express.json())
@@ -19,68 +19,27 @@ if (process.env.NODE_ENV === 'production') {
     };
     app.use(cors(corsOptions));
 }
+const authRoutes = require('./api/auth/auth.routes')
+const userRoutes = require('./api/user/user.routes')
+const reviewRoutes = require('./api/review/review.routes')
+const toyRoutes = require('./api/toy/toy.routes')
+const {setupSocketAPI} = require('./services/socket.service')
 
-app.get('/api/toy', (req, res) => {
-    const {filterBy,sortBy} = req.query.params
-    toyService.query(filterBy,sortBy)
-        .then(toys => {
-            res.send(toys)
-        })
-        .catch(err => {
-            console.log('Had issues getting toys', err);
-            res.status(400).send({ msg: 'Had issues getting toys' })
-        })
+const setupAsyncLocalStorage = require('./middlewares/setupAls.middleware')
+app.all('*', setupAsyncLocalStorage)
+
+app.use('/api/auth', authRoutes)
+app.use('/api/user', userRoutes)
+app.use('/api/review', reviewRoutes)
+app.use('/api/toy', toyRoutes)
+setupSocketAPI(http)
+
+app.get('/**', (req, res) => {
+    res.sendFile(path.join(__dirname, 'public', 'index.html'))
 })
 
-app.get('/api/toy/:id', (req, res) => {
-    const toyId = req.params.id
-    toyService.getById(toyId)
-        .then(toy => {
-            res.send(toy)
-        })
-        .catch(err => {
-            console.log('Had issues getting toy', err);
-            res.status(400).send({ msg: 'Had issues getting toy' })
-        })
-})
-
-app.delete('/api/toy/:id', (req, res) => {
-    const toyId = req.params.id
-    toyService.remove(toyId)
-        .then(() => {
-            res.end('Done!')
-        })
-        .catch(err => {
-            console.log('Had issues deleting toy', err);
-            res.status(400).send({ msg: 'Had issues deleteing toy' })
-        })
-})
-
-app.post('/api/toy', (req, res) => {
-    const toy = req.body
-    toyService.save(toy)
-        .then(savedToy => {
-            res.send(savedToy)
-        })
-        .catch(err => {
-            console.log('Had issues adding toy', err);
-            res.status(400).send({ msg: 'Had issues adding toy' })
-        })
-})
-
-app.put('/api/toy/:id', (req, res) => {
-    const toy = req.body
-    toyService.save(toy)
-        .then(savedToy => {
-            res.send(savedToy)
-        })
-        .catch(err => {
-            console.log('Had issues updating toy', err);
-            res.status(400).send({ msg: 'Had issues updating toy' })
-        })
-})
-
-const port = 3030
-app.listen(port, () => {
-    console.log('Server is up and listening to', port);
+const logger = require('./services/logger.service')
+const port = process.env.PORT || 3030
+http.listen(port, () => {
+    logger.info('Server is running on port: ' + port)
 })

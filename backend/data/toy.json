@@ -1,19 +1,19 @@
 [
   {
-    "_id": "118064",
-    "name": "baby",
-    "price": 22,
+    "_id": "118Z69",
+    "name": "boat",
+    "price": 49,
     "labels": [
-      "Art",
       "Box game",
       "On wheels"
     ],
-    "createdAt": 1631031801011,
-    "inStock": true
+    "createdAt": 1631031301211,
+    "inStock": true,
+    "img": "boat"
   },
   {
     "_id": "118063",
-    "name": "teddy",
+    "name": "mobile",
     "price": 38,
     "labels": [
       "Art",
@@ -21,25 +21,77 @@
       "Baby"
     ],
     "createdAt": 1631031801011,
-    "inStock": false
+    "inStock": false,
+    "img": "mobile"
   },
   {
-    "name": "bobo",
-    "price": 60,
-    "labels": [],
-    "createdAt": 1673368014973,
+    "_id": "116Z69",
+    "name": "pyramid ",
+    "price": 24,
+    "labels": [
+      "Box game",
+      "On wheels"
+    ],
+    "createdAt": 1621031301211,
     "inStock": true,
-    "_id": "YBgbH"
+    "img": "pyramid"
   },
   {
-    "_id": "118062",
-    "name": "truck",
-    "price": 100,
+    "_id": "113Z69",
+    "name": "racing cars",
+    "price": 59,
+    "labels": [
+      "On wheels"
+    ],
+    "createdAt": 1611031301211,
+    "inStock": true,
+    "img": "cars"
+  },
+  {
+    "_id": "118064",
+    "name": "rainbow",
+    "price": 22,
     "labels": [
       "Art",
-      "Box game"
+      "Box game",
+      "On wheels"
     ],
     "createdAt": 1631031801011,
-    "inStock": true
+    "inStock": true,
+    "img": "rainbow"
+  },
+  {
+    "name": "rattle",
+    "price": 60,
+    "labels": [
+      "Box game"
+    ],
+    "createdAt": 1673368014973,
+    "inStock": true,
+    "_id": "YBgbH",
+    "img": "rattle"
+  },
+  {
+    "name": "toy5",
+    "price": 100,
+    "labels": [
+      "art"
+    ],
+    "createdAt": 1673470136738,
+    "inStock": true,
+    "img": "default",
+    "_id": "MBXjv"
+  },
+  {
+    "_id": "118069",
+    "name": "wooden rattle",
+    "price": 35,
+    "labels": [
+      "Box game",
+      "On wheels"
+    ],
+    "createdAt": 1631031801211,
+    "inStock": true,
+    "img": "woodenRattle"
   }
 ]

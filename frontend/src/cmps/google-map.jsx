@@ -6,7 +6,7 @@ const AnyReactComponent = ({ text }) => <div style={{ fontSize: "24px", fontWeig
 export function GoogleMap() {
 
     const [coordinates, setCoordinates] = useState({ lat: 32.0853, lng: 34.7818 })
-    const zoom = 11
+    const zoom = 8
 
     const handleClick = (branchCor) => {
         setCoordinates(branchCor)
@@ -14,7 +14,7 @@ export function GoogleMap() {
 
     return (
         // Important! Always set the container height explicitly
-        <div style={{ height: '70vh', width: '90%', margin: 'auto' }}>
+        <div style={{ height: '55vh', width: '50%', margin: 'auto' }}>
             <GoogleMapReact
                 bootstrapURLKeys={{ key: "AIzaSyBWq5o8s42HsTNUsE5u68M4Nu9u_AkOMB8" }}
                 defaultCenter={coordinates}
@@ -39,9 +39,11 @@ export function GoogleMap() {
                     text="📍Beer Sheva"
                 />
             </GoogleMapReact>
-            <button onClick={()=>handleClick({lat:32.4913 ,lng:35.0115})}>Haifa Branch</button>
-            <button onClick={()=>handleClick({lat:31.140 ,lng:34.47})}>Beer Sheva Branch</button>
-            <button onClick={()=>handleClick({lat:32.0853 ,lng:34.7818})}>TLV Branch</button>
+            <div className="branches-btns">
+            <button className="btn" onClick={()=>handleClick({lat:32.4913 ,lng:35.0115})}>Haifa</button>
+            <button className="btn" onClick={()=>handleClick({lat:32.0853 ,lng:34.7818})}>TLV</button>
+            <button className="btn" onClick={()=>handleClick({lat:31.140 ,lng:34.47})}>Beer-Sheva</button>
+            </div>
         </div>
     )
 }
