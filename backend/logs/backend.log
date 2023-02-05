@@ -701,3 +701,6 @@
 5.2.2023, 9:29:27 - DEBUG - Getting Toys 
 5.2.2023, 9:29:27 - DEBUG - Getting Toys 
 5.2.2023, 9:29:33 - DEBUG - Getting Toys 
+5.2.2023, 9:42:49 - INFO - Socket disconnected [id: undefined] 
+5.2.2023, 9:42:50 - INFO - New connected socket [id: wsnycsM1d5IJ9VK5AAAD] 
+5.2.2023, 9:42:50 - DEBUG - Getting Toys 

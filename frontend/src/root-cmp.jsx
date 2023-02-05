@@ -5,7 +5,7 @@ import { HomePage } from './views/home-page'
 import { ToyIndex } from './views/toy-index'
 import { AboutUs } from './views/about-us'
 import { AppHeader } from './cmps/app-header'
-// import { AppFooter } from './cmps/app-footer'
+import { AppFooter } from './cmps/app-footer'
 import { Provider } from 'react-redux'
 import { store } from './store/store'
 import { ToyEdit } from './views/toy-edit';
@@ -31,7 +31,7 @@ function App() {
             <Route element={<DashboardPage/>} path="/dashboard"/>
           </Routes>
         </main>
-        {/* <AppFooter /> */}
+        <AppFooter />
       </section>
     </Router >
   </Provider>
